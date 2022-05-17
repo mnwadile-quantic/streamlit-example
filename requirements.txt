@@ -9,7 +9,9 @@ lightgbm
 xgboost
 catboost
 seaborn
-
+sklearnex
+sdv==0.13.1 
+phik
 
 
 
