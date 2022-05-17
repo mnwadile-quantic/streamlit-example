@@ -8,8 +8,8 @@ import seaborn as sns
 import numpy as np
 import matplotlib.pyplot as plt
 #%matplotlib inline
-from sklearnex import patch_sklearn
-patch_sklearn()
+#from sklearnex import patch_sklearn
+#patch_sklearn()
 from pylab import title, figure, xlabel, ylabel, xticks, bar, legend, axis, savefig
 from fpdf import FPDF
 #import fpdf
