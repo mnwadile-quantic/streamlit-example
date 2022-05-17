@@ -1,3 +1,15 @@
 altair
 pandas
 streamlit
+matplotlib
+fpdf
+sklearn
+imbalanced-learn
+lightgbm
+xgboost
+catboost
+
+
+
+
+
