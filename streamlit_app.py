@@ -1174,10 +1174,10 @@ def start_process(df, target, sample_size, threshold_value, min_value, max_value
         df_histo.reset_index(drop=True, inplace=True)
         df_histo.to_csv('df_histo.csv', index= False)
         #df_histo['Category'] = filtered_list
-        st.write("min_value: ", min_value)
-        st.write("max_value: ", max_value)
+        #st.write("min_value: ", min_value)
+        #st.write("max_value: ", max_value)
         print("df_histo value count", df_histo['Category'].value_counts())
-        st.write("df_histo value count", df_histo['Category'].value_counts())
+        #st.write("df_histo value count", df_histo['Category'].value_counts())
         #plt.figure(figsize=(7, 7))
         #ax = sns.histplot(data=df_histo, x='Predicted', hue='Category', bins=50)
         ax = sns.histplot(data=df_histo, x='Predicted', hue='Category')
