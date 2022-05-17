@@ -11,6 +11,7 @@ catboost
 seaborn
 sdv==0.13.1 
 phik
+daal4py
 
 
 
